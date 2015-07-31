@@ -1,7 +1,140 @@
-* {
-	font-family: Arial;
+body {
+	font-family: arial, sans-serif;
+	-webkit-appearance: none;
+	-moz-appearance: none;
 }
 
+center {
+	text-align: -webkit-center;
+}
+
+div {
+	display: block;
+}
+
+/*Top Bar */
+
+#topframe {
+	font-size: 13px;
+	position: relative;
+	width: 100%;
+	color: #222;
+	padding-right: 30px;
+	padding-top: 15px;
+}
+
+.barelements {
+	display: inline-block;
+	padding-top: 10px;
+	padding-left: 15px;
+}
+
+#name {
+	color: #999;
+}
+
+a.barlink {
+	text-decoration: none;
+}
+
+a.barlink:hover {
+	text-decoration: underline;
+}
+
+a.barlink:visited {
+	color: #4b4b4b;
+}
+
+/* Logo */
+
 #g_logo {
+	padding-top: 112px;
+}
+
+#g_logo img {
+	position: relative;
+	margin: auto;
+	height: 95px;
+	width: 269px;
+}
+
+/* Search Field & Buttons */
+
+#g_form {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 22px;
+	width: 1139px;
+}
+
+/* Bar */
+
+#searchbar {
+	background-color: #fff;
+	border: 1px solid #d9d9d9;
+	border-top-color: #c0c0c0;
+	max-width: 586px;
+}
+
+#searchbar:hover {
+	border-color: #b9b9b9;
+	border-top-color: #a0a0a0;
+}
+
+#searchinput {
+	/* Box Model */
+	border: none;
+	margin: none;
+	padding: none;
+	height: 25px;
+	width: 568px;
+	outline-style: none;
+	outline-color: initial;
+	outline-width: initial;
 	
+	z-index: 6;
+	font-size: 16px;
+	
+	webkit-appearance: textfield;
+}
+
+/* Buttons */
+
+#buttons {
+	margin-top: 15px;
+}
+
+.submits {
+	display: inline;
+}
+
+.click {
+	height: 29px;
+	font-size: small;
+	border: 1px solid #d9d9d9;
+	border-radius: 2px;
+	background-color: #f2f2f2;
+	color: #444;
+	font-size: 11px;
+	font-weight: bold;
+	min-width: 54px;
+	padding: 0 8px;
+	text-align: center;
+}
+
+.click:hover {
+	border-color: #b9b9b9;
+	box-shadow: 0 0 1px #a0a0a0;
+}
+
+.click:active {
+	border-color: #4d90fe;
+}
+
+#ggs {
+	margin-right: 6px;
+}
+
+#ifl {
+	margin-left: 6px;
 }
