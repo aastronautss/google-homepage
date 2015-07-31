@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<!-- <link type="text/css" rel="stylesheet" href="styles/reset.css" /> -->
+		<link type="text/css" rel="stylesheet" href="styles/reset.css" />
 		<link type="text/css" rel="stylesheet" href="styles/main.css" />
 		<title>Google</title>
 	</head>
 	
 	<body>
 		<!-- Top bar -->
-		<div id="topframe">
-		
-			<!-- Main links -->
-			<div class="barelements"><span id="name">Tyler</span></div>
-			<div class="barelements"><a class="barlink" href="#">Gmail</a></div>
-			<div class="barelements"><a class="barlink" href="#">Images</a></div>
-			
-			<!-- Graphic links -->
-			<div class="bargraphics">
-				<a class="charms" id="apps" href="#"><img src="http://i.imgur.com/wSUp2BG.png"></img></a>
-			</div>
-			<div class="bargraphics"></div>
-			<div class="bargraphics"></div>
-		</div>
+		<ul id="topframe">
+			<li class="barelements"><span id="name">Tyler</span></li>
+			<li class="barelements"><a class="barlink" href="#">Gmail</a></li>
+			<li class="barelements"><a class="barlink" href="#">Images</a></li>
+			<li class="bargraphics" id="apps">
+				<a class="charms" href="#">
+					<img src="http://i.imgur.com/wSUp2BG.png" />
+				</a>
+			</li>
+			<li class="bargraphics" id="bell">
+				<a class="charms" href="#">
+					<img src="http://i.imgur.com/q1g3Liu.png" />
+				</a>
+			</li>
+			<li class="bargraphics" id="portrait">
+				<a class="portrait" href="#">
+					<img src="https://lh5.googleusercontent.com/-eMk4TH-UgG8/AAAAAAAAAAI/AAAAAAAAAAA/VOw_sfATTuw/s32-c/photo.jpg" />
+				</a>
+			</li>
+		</ul>
 		
 		<!-- Logo and search field -->
 		<center>
@@ -53,9 +59,35 @@
 						<div class="submits">
 							<button id="ifl" class="click" name="ggs">I'm Feeling Lucky</button>
 						</div>
+						
+						<!-- Microphone -->
+						<div id="mic">
+							<img src="data:image/gif;base64,R0lGODlhHAAmAKIHAKqqqsvLy0hISObm5vf394uLiwAAAP///yH5BAEAAAcALAAAAAAcACYAAAO9eLpMIMYIQJi9DcYtKv6KtnHgB4yoAZSXKAyDy1rjoAzjzOQLrx8+4OanCAZnxiExGSEKmz3lj2lwUq3SZ3WZPbKuXGgxu9t4tLYDTkpIRQILF0x2G4lWipM7gj/oJQUkcXsCDCIFATULBCIcZ2tvB3QLDxETFnR/BgU/gRt9jX0gnpYMkJZpFzEoqQqJKAIBaQOVKHAXr3t7txgBjboSvB8EpLoFZywOAo3LFE5lYs/QW9LT1TRk1V7S2xYJADs=" />
+						</div>
 					</div>
 				</form>
 			</div>
 		</center>
+		
+		<!-- Bottom bar -->
+		<div id="bottombar">
+			<ul id="bleft">
+				<li class="botelement"><a class="barlink" href="#">Advertising</a>
+				</li>
+				<li class="botelement"><a class="barlink" href="#">Business</a>
+				</li>
+				<li class="botelement"><a class="barlink" href="#">About</a>
+				</li>
+			</ul>
+			
+			<ul id="bright">
+				<li class="botelement"><a class="barlink" href="#">Privacy</a>
+				</li>
+				<li class="botelement"><a class="barlink" href="#">Terms</a>
+				</li>
+				<li class="botelement"><a class="barlink" href="#">Settings</a>
+				</li>
+			</ul>
+		</div>
 	</body>
 </html>

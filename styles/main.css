@@ -17,22 +17,21 @@ div {
 #topframe {
 	font-size: 13px;
 	position: absolute;
-	width: 100%;
-	height: 55px;
+	height: 30px;
 	color: #222;
-	padding-right: 30px;
+	right: 40px;
 }
 
 .barelements {
-	display: inline-block;
+	display: inline;
 	position: relative;
-	padding-top: 10px;
+	padding-top: 15px;
 	padding-left: 15px;
 }
 
 .bargraphics {
-	vertical-align: center;
-	display: inline-block;
+	display: inline;
+	position: relative;
 	padding-top: 10px;
 	padding-left: 15px;
 }
@@ -54,8 +53,11 @@ a.barlink:visited {
 }
 
 a.charms {
+	height: 16px;
+	width: 16px;
 	opacity: .55;
 	cursor: default;
+	text-decoration: none;
 }
 
 a.charms:hover {
@@ -63,13 +65,29 @@ a.charms:hover {
 }
 
 #apps {
-	margin-top: 30px;
+	top: 4px;
+}
+
+#bell {
+	padding-left: 23px;
+	top: 6px;
+}
+
+a.portrait {
+	cursor: default;
+	text-decoration: none;
+	height: 32px;
+	width: 32px;
+}
+
+#portrait {
+	top: 11px;
 }
 
 /* Logo */
 
 #g_logo {
-	padding-top: 112px;
+	padding-top: 193px;
 }
 
 #g_logo img {
@@ -158,4 +176,55 @@ a.charms:hover {
 
 #ifl {
 	margin-left: 6px;
+}
+
+#mic {
+	position: relative;
+	display: inline;
+	
+	left: 165px;
+	top: -39px;
+}
+
+#mic img {
+	opacity: .55;
+	height: 19px;
+	width: 14px;
+}
+
+#mic img:hover {
+	opacity: 1;
+}
+
+/* Bottom Bar */
+
+#bottombar {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	
+	font-size: 13px;
+}
+
+#bleft {
+	margin: 0;
+	display: inline;
+	float: left;
+	clear: right;
+}
+
+#bright {
+	margin-right: 30px;
+	display: inline;
+	float: right;
+}
+
+.botelement {
+	display: inline;
+	padding-left: 27px;
 }
